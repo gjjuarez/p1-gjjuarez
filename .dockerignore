@@ -1,0 +1,10 @@
+##exclude all
+##*
+
+#include only
+
+
+## Dotnet
+**.vscode/
+**bin/
+**obj/
