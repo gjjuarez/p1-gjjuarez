@@ -30,8 +30,8 @@ stages:
         steps:
           - script: |
               docker login
-              docker image build -f dockerfile -t fredbelotte/p1proj .
-              docker image push fredbelotte/p1proj
+              docker image build -f dockerfile -t gjjuarez/p1proj .
+              docker image push gjjuarez/p1proj
               docker logout
             workingDirectory: ./p1-project
 
